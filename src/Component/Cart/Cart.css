@@ -1,0 +1,88 @@
+.cart_item_img{
+    width: 100%;
+}
+h5.cart_title {
+    margin: 0;
+    font-size: 15px;
+    font-weight: normal;
+}
+p.cart_price {
+    margin: 9px 0 0 0;
+    font-size: 15px;
+}
+.cart_price_button {
+    margin-top: 15px;
+}
+.cart_details {
+    margin-left: 15px;
+}
+
+.total_price {
+    margin: 9px 4px;
+    color: #b81f1f;
+}
+p.cart_headding {
+    margin: 2px 13px;
+    color: #970a0a;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding: 0 0 16px 0;
+}
+
+form.checkout-form{
+    margin-top:50px
+}
+
+   form.checkout-form input {
+    display: block;
+    width: 89%;
+    border: 1px solid rgb(56, 52, 52);
+    padding: 10px 15px;
+    margin-bottom: 20px;
+   }
+  
+
+ form.checkout-form  input[type="submit"] {
+    background: #ffd400;
+    padding: 14px 0px;
+    font-weight: bold;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 16px;
+    letter-spacing: 10px;
+    border:none;
+  }
+  
+
+  form.checkout-form input[type="submit"]:hover {
+    background: #f1db6b;
+  }
+  
+
+  
+  form.checkout-form input[type="button"]:hover {
+    transition: 0.3s all;
+  }
+  form.checkout-form input:focus {
+    outline: 2px solid red;
+   
+}
+
+.MuiBox-root {
+   
+    position: relative !important;
+}
+.remove_from_cart {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #f50057;
+    border: 1px solid #e5e3e3;
+    padding: 5px 13px;
+    font-size: 14px;
+    box-shadow: -2px -2px 6px #ff7979;
+    border-radius: 14px 0px 0 0px;
+    color: white;
+    outline: none
+}

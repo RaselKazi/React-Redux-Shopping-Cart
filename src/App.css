@@ -1,0 +1,37 @@
+button.MuiButtonBase-root.MuiButton-root.MuiButton-text.button_style {
+    background: #ffd400;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+/* model css */
+.model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model_div {
+    position: relative;
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    box-shadow: -3px 5px 20px #740000;
+    border-radius: 10px;
+    border:none;
+}
+button.model_close_btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #f50057;
+    border: 1px solid #e5e3e3;
+    padding: 13px 18px;
+    font-size: 25px;
+    box-shadow: -3px 5px 2px #ff7979;
+    border-radius: 0 9px 0 27px;
+    color: white;
+    outline:none;
+    z-index: 5000;
+}

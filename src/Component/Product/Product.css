@@ -1,0 +1,37 @@
+
+
+.product img {
+    max-width: 37rem;
+    max-height: 37rem;
+}
+.product a{
+    text-decoration: none;
+    color: black
+}
+.MuiCardContent-root {
+    padding: 4px 15px !important;
+    height: 52px;
+}
+p.product_price {
+    font-weight: bold;
+    color: #d1300c;
+    margin: 10px 0 0 11px;
+}
+
+
+/* model style */
+img.product_model_image {
+    height: 78vh;
+}
+ul.product-size li {
+    list-style: none;
+    float: left;
+    background: #a7a7a7;
+    padding: 10px 14px;
+    margin: 0px 5px;
+    color: #fee323;
+}
+h4.product-size-title {
+    float: left;
+    margin: 11px 20px 2px 0;
+}

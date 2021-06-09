@@ -1,0 +1,24 @@
+p.total_products {
+    margin: 2px 0;
+    color: #970a0a;
+    font-weight: bold;
+}
+p.total_products {
+    margin: 2px 0;
+    color: #970a0a;
+    font-weight: bold;
+}
+select{
+    margin-left: 10px;
+}
+.MuiGrid-root.product-filter.MuiGrid-container.MuiGrid-spacing-xs-3 {
+    border-bottom: 1px solid;
+    padding: 0 0 3px 0;
+    margin-bottom: 20px;
+}
+select {
+    margin-left: 10px;
+    padding: 2px 30px;
+    color: #f50057;
+    border-color: #f50057;
+}
